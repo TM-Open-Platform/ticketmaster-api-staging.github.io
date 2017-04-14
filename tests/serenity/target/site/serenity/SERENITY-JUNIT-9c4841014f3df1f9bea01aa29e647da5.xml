@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="User apps" skipped="0" tests="9" time="189.92" timestamp="2017-04-104 09:54:50"><testcase name="(developer-acct.ticketmaster.com/user/1554/apps/add) Verification for general page's elements"/><testcase name="(Pantheon|Add new App) Add new App negative [2.1.15 Add New App - The required field is empty]"/><testcase name="(Pantheon|Add new App) [2.1.5 Add new App with values positive]"/><testcase name="(Pantheon|Edit App) Edit app with empty required fields negative"><failure message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'testing-docker-0d896830-f542-4e7b-a4e1-aa8f64e8ed86', ip: '172.17.0.12', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.12-040812-generic', java.version: '1.8.0_31'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'testing-docker-0d896830-f542-4e7b-a4e1-aa8f64e8ed86', ip: '172.17.0.12', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.12-040812-generic', java.version: '1.8.0_31'
+Driver info: driver.version: unknown</failure><system-err>Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'testing-docker-0d896830-f542-4e7b-a4e1-aa8f64e8ed86', ip: '172.17.0.12', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.12-040812-generic', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+com.tkmdpa.taf.pages.pantheon.AddNewAppPage.clickOnApp(AddNewAppPage.java:49)
+com.tkmdpa.taf.steps.pantheon.UserAppsSteps.openMyAppsPage(UserAppsSteps.java:31)
+com.tkmdpa.taf.definitions.pantheon.UserAppsDefinition.navigateToMyAppsPage(UserAppsDefinition.java:26)
+</system-err></testcase><testcase name="(Pantheon|Edit App) Edit app positive [2.1.8 Edit application]"/><testcase name="(Pantheon|Delete App) Delete App positive [2.1.9 Delete application]"><failure type="java.lang.AssertionError"/><system-err>null
+com.tkmdpa.taf.steps.pantheon.UserAppsSteps.checkIsAppNotExists(UserAppsSteps.java:76)
+com.tkmdpa.taf.definitions.pantheon.UserAppsDefinition.appIsRemovedFromTheListOfApps(UserAppsDefinition.java:84)
+</system-err></testcase></testsuite>
